@@ -1,0 +1,53 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Altima",
+      "year": "1995",
+      "price": "50",
+      "color": "seagreen",
+      "purchased": false,
+      "description": "It ran for twenty years, fifty bucks says it'll run 20 more."
+    },    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },    {
+      "make": "Ford",
+      "model": "Escape",
+      "year": "1996",
+      "price": "2999",
+      "color": "Ivory",
+      "purchased": false,
+      "description": "Obvious outdated reference and joke"
+    },    {
+      "make": "Volkswagen",
+      "model": "Herbie",
+      "year": "1972",
+      "price": "4799",
+      "color": "indianred",
+      "purchased": false,
+      "description": "Has eyes and talks, annoyingly."
+    },    {
+      "make": "Dodge",
+      "model": "Charger",
+      "year": "1969",
+      "price": "3799",
+      "color": "Orange",
+      "purchased": false,
+      "description": "We couldn't remove the flag decal so you'll just have to live with it."
+    },    {
+      "make": "Plymouth",
+      "model": "Fury",
+      "year": "1958",
+      "price": "1099",
+      "color": "Moccasin",
+      "purchased": false,
+      "description": "Yeah this car will kill you"
+    }
+  ]
+}
