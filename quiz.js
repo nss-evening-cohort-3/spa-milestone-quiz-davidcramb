@@ -19,15 +19,13 @@ function populatePage (inventory) {
       let buildCard = `<div class="card"><div class="insideCard" style="border-color:${color}" box-shadow:"${color}"><h3>${make} ${model}</h3><div>${year} ${color} ${make} ${model}</div><div class="description">${desc}</div>`
       cardHolder.innerHTML += buildCard;
   }; 
-
   let card = document.getElementsByClassName('card');
   for (var i = 0; i < card.length; i++) {
     card[i].classList.add('col-xs-4');
-
-  }
+  };
   // Now that the DOM is loaded, establish all the event listeners needed
   CarLot.activateEvents(cardHolder);
-}
+};
 
 // Load the inventory and send a callback function to be
 // invoked after the process is complete

@@ -9,9 +9,7 @@ var CarLot = (function () {
         inventory.push(data.cars[i]);
       };
       return callback(inventory)
-      
     },
-
     getInventoryList: function () {
       return inventory;
     },
@@ -21,7 +19,6 @@ var CarLot = (function () {
       inventoryLoader.send();
       inventoryLoader.addEventListener("load", function () {
       var data = this.responseText;
-
       return callback(data, populatePage);
       });
     }
